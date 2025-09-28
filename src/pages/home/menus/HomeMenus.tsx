@@ -35,8 +35,9 @@ export const HomeMenus = memo(() => {
 
     const navigate = useNavigate();
     const location = useLocation();
-    const changeMenu = (menu: MenuItemType) => {
-        navigate(`${menu.key}`);
+    // 修改参数类型为 MenuInfo
+    const changeMenu = (info: { key: string }) => {
+        navigate(`${info.key}`);
     }
     const {pathname} = location;
     const currentMenu = pathname.substring(pathname.lastIndexOf('/') + 1, pathname.length);
