@@ -18,7 +18,7 @@
     "@icon-park/react": "^1.4.2",
     "@monaco-editor/react": "^4.6.0",
     "@scena/react-ruler": "^0.17.1",
-    "antd": "^5.20.0",
+    "antd": "^5.27.4",
     "countup.js": "^2.8.0",
     "flv.js": "^1.6.2",
     "hls.js": "^1.5.11",

@@ -1,7 +1,7 @@
 import {defineConfig} from 'vite'
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/light-chaser-app/',
+    // base: '/light-chaser-app/',
     server: {
         proxy: {
             '^/(api|static)/.*': {
