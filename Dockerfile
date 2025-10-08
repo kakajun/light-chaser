@@ -24,7 +24,7 @@ WORKDIR /usr/app/light-chaser
 COPY --from=builder /usr/app/light-chaser/dist .
 
 #将nginx配置文件复制到/etc/nginx/conf.d/目录
-COPY ./nginx.conf /etc/nginx/conf.d/default.conf
+
 
 #暴露80端口
 EXPOSE 80
