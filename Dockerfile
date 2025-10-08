@@ -28,6 +28,3 @@ COPY --from=builder /usr/app/light-chaser/dist .
 
 #暴露80端口
 EXPOSE 80
-
-## 启动Nginx服务
-CMD ["nginx", "-g", "daemon off;"]
